@@ -1,0 +1,10 @@
+def mult(base, altura):
+
+  return base * altura
+
+
+resultado = mult(int(input("ingrese distancia de base lunar en metros = ")),
+                 int(input("ingrese distancia de altura lunar en metros = ")))
+
+print(resultado, "m cuadrados")
+

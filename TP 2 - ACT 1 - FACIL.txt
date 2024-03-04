@@ -1,0 +1,10 @@
+def div(dist, vel):
+
+  return dist / vel
+
+
+resultado = div(
+    int(input("ingrese distancia de tierra a luna en metros = ")),
+    int(input("velocidad de la nave espacial en metros sobre segundo = ")))
+
+print(resultado, "segundos")

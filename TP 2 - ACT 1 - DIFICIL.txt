@@ -1,0 +1,13 @@
+def calcular_factorial(n):
+  if n == 0 or n == 1:
+    return 1
+  else:
+    return n * calcular_factorial(n - 1)
+
+def calcular_combinaciones(n, k):
+  if k>n:
+    return 0
+  else:
+    return calcular_factorial(n) // (calcular_factorial(k) * calcular_factorial(int(input("ingrese la cantidad de personas = ")) - int(input("ingrese la cantidad de personaas por grupo = "))))
+
+print(calcular_combinaciones(14, 2))

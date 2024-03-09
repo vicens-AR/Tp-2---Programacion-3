@@ -1,0 +1,7 @@
+def Personaje(Nombre, Posiones):
+  print("El nombre de tu personaje es:", Nombre, "una perona comun y tiene", Posiones, "pociones(gaseoses).")
+
+Nombre = input("Ingrese el nombre del personaje: ")
+Posiones = int(input("Ingrese la cantidad de pociones: "))
+
+Personaje(Nombre, Posiones)

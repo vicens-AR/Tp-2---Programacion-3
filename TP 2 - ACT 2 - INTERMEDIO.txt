@@ -1,0 +1,11 @@
+def Pelea(Enemigo, Daño):
+
+  return Enemigo - Daño
+
+resultado = Pelea(int(input("ingrese vida de enemigo = ")),
+   int(input("ingrese daño de la pocion = ")))
+
+if resultado < 0:
+  print("enemigo derrotado")
+else:
+  print("enemigo sigue vivo con", resultado, "puntos de vida")

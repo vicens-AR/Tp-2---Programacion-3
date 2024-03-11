@@ -1,0 +1,12 @@
+señal = input("ingrese su simbolo de pista (*-> o <-* o +-> o <-+) = ")
+
+if señal == "<-+":
+  print("Estas en el camino correcto - segui la flecha")
+elif señal == "+->":
+  print("Estas en el camino correcto - segui la flecha")
+elif señal == "<-*":
+  print("Estas en el camino incorrecto - anda en el sentido contrario de la flecha")
+elif señal == "*->":
+  print("Estas en el camino incorrecto - anda en el sentido contrario de la flecha")
+else:
+  print("simbolo desconocido")

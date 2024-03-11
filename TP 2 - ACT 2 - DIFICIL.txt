@@ -12,4 +12,4 @@ def calcular_combinaciones(n, k):
     return calcular_factorial(n) // (calcular_factorial(k) * calcular_factorial(n - k))
 
 
-print(calcular_combinaciones(int(input("ingrese la cantidad de personas = ")),int(input("ingrese la cantidad de personaas por grupo = "))))
+print("puede haber",calcular_combinaciones(int(input("ingrese la cantidad de magos = ")),int(input("ingrese la cantidad de magos por alianza = "))),"alianzas magicas")

@@ -1,0 +1,7 @@
+Objeto = int(input("ingrese su objeto (0 o 1) = "))
+
+if Objeto == 0:
+  print("Encontraste un tesoro")
+else:
+  print("es una reliquia decorativa")
+

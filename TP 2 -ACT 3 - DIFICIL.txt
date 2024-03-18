@@ -1,0 +1,13 @@
+preguntas_respuestas = {
+    '¿Leclerc tiene 5 victorias?': 'si',
+    '¿Max Verstappen tiene 2 mundiales?': 'no',
+    '¿Alonso es el GOAT?': 'si'
+}
+
+respuesta_usuario = input("Ingrese su respuesta (si o no): ")
+
+# Verificamos si la respuesta ingresada por el usuario coincide con la respuesta correcta
+if respuesta_usuario.lower() == preguntas_respuestas.get(pregunta, '').lower():
+    print("¡Correcto!")
+else:
+    print("Incorrecto")
